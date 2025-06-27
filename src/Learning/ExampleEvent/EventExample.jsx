@@ -13,15 +13,11 @@ export default class EventExample extends Component{
     render(){
         return <div>
             <h1>EventExample</h1>
-            <button onClick={
-                ()=>console.log("Button is Clicked")
-                }>click me
-            </button>
 
-            <p> {this.state.appName} - <button onClick=
-            { () => this.setState({ appName:'Scientific Calculator'})
-            }>Change app name
-            </button> </p>
+            <p> {this.state.appName} - <button onClick={ 
+                () => this.setState({ appName:'Scientific Calculator'})
+                }>Change app name</button>
+             </p>
 
             <h3>Count: {this.state.count} </h3> 
             <button onClick={
@@ -32,6 +28,7 @@ export default class EventExample extends Component{
                 ()=>this.setState({count:this.state.count-1})
                 }>Decrement
                 </button>
+            <button onClick={()=>this.setState({count: 0})}>Reset</button>
 
         </div>
     }

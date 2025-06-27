@@ -65,8 +65,6 @@ class ClassComponentState extends React.Component {
                                                 </tr>
                                                 
                                             </table>
-                                            
-                                            
                                         </Fragment>
                                     }
                                 )
