@@ -1,0 +1,13 @@
+Formik
+-------
+    Step 1 :  npm install formik --save
+    Step 2 :  import the formik from formik
+    Step 3 : implement your render section <Formik> .... </Formik>
+
+
+
+
+
+validator - Yup
+--------
+   step 1 : npm install yup --save

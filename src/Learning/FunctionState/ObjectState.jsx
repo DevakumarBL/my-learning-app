@@ -19,12 +19,13 @@ function ObjectState(){
             itemQty:"50kg"
         })
     }
+    const {itemName,itemPrice,itemQty}= Fruits;//destructuring
     return(
         <div>
             <h1>Our Fruits List</h1>
-            <p>FruitsName :{Fruits.itemName} </p>
-            <p>FruitsPrice :{Fruits.itemPrice} </p>
-            <p>FruitsQuantity :{Fruits.itemQty}</p>
+            <p>FruitsName :{itemName} </p>
+            <p>FruitsPrice :{itemPrice} </p>
+            <p>FruitsQuantity :{itemQty}</p>
             <button onClick={changeme}>Changeme</button>
             <button onClick={Addme}>Addme</button>
         </div>

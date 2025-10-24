@@ -1,0 +1,39 @@
+.container{
+  max-width: 500px;
+  margin: auto;
+  background-color: #549ae0;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row label {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .row input {
+    padding: 10px;
+    border: 1px solid #e3cbcb;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  .errors p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    
+  }
+  
+  .btn-success {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
